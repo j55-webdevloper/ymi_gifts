@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}  
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tinos{
+    font-family: 'Tinos', serif !important;
+}
+
+.lato{
+    font-family: 'Lato', sans-serif; 
+}
+
+/* Customs */
+.btn-black{
+    border: 1px solid black;
+    border-radius: unset;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-black:hover{
+    color: white;
+    background-color: #264580;
+    border: #264580;
+}
+
+/* Hero */
+#hero{
+    height: 80vh;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-body{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 100;
+}
+
+/* Gifts */
+.card{
+    border-radius: unset !important;
+    border-color: transparent !important;
+}
+
+.card-img-top{
+    border-radius: unset !important;
+    width: 286px !important;
+    height: 286px !important;
+}
+
+/* Order Form */
+#form{
+    border-radius: unset;
+    padding: 40px 30px;
+    background-color: #EDEDED;
+}
+
+input, textarea, select, option{
+    border-radius: unset !important;
+    outline: none !important;
+}
